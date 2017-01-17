@@ -1,9 +1,7 @@
 # coForEach
-
 co wrap to forEach method 
 
 # Install
-
  ```bash
 npm install coforeach
  ```
