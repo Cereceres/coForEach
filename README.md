@@ -9,7 +9,7 @@ npm install coforeach
  ```
 
  # Usage
- 
+
  ```js
 let coFor = require('coforeach')
 let returned = coFor(function * (item, index) {
@@ -21,15 +21,12 @@ let returned = coFor(function * (item, index) {
  ```
 
  # API
-
  coFor(iterater[, context, arrayToIterate]) -> Promise
 
  ## iterater(item, index) -> null
-
  iterater should be a generator receive the item and index of arrayToIterate  
 
  ## context 
-
  the context to call  iterater, default is {}
 
  ## arrayToIterate 
