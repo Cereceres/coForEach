@@ -1,0 +1,33 @@
+{
+  "name": "coforeach",
+  "version": "0.0.1",
+  "description": "wrap to forEach method using generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/coForEach.git"
+  },
+  "keywords": [
+    "co",
+    "generators",
+    "promise",
+    "coroutines",
+    "foreach",
+    "array"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cereceres/coForEach/issues"
+  },
+  "homepage": "https://github.com/Cereceres/coForEach#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
