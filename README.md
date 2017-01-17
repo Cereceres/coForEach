@@ -1,7 +1,9 @@
 # coForEach
+
 co wrap to forEach method 
 
 # Install
+
  ```bash
 npm install coforeach
  ```
@@ -17,17 +19,19 @@ let returned = coFor(function * (item, index) {
     assert(returned instanceof Promise )
  ```
 
- #API
+ # API
 
  coFor(iterater[, context, arrayToIterate]) -> Promise
 
  ## iterater(item, index) -> null
+
  iterater should be a generator receive the item and index of arrayToIterate  
 
  ## context 
+
  the context to call  iterater, default is {}
 
-## arrayToIterate 
-The array to iterate, can be passed as thid arg or with context with is called coFor
+ ## arrayToIterate 
+ The array to iterate, can be passed as thid arg or with context with is called coFor
  
 
