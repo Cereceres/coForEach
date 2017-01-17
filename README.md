@@ -9,6 +9,7 @@ npm install coforeach
  ```
 
  # Usage
+ 
  ```js
 let coFor = require('coforeach')
 let returned = coFor(function * (item, index) {
