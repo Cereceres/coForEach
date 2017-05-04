@@ -15,8 +15,10 @@ let coFor = require('coforeach')
 let returned = coFor(function * (item, index) {
         assert(item ===3) // the item is equal to item in array
         assert(this.test === 'context is the second arg') // the context is the passed as second arg to coForEach
-    }, {test: 'context is the second arg'} // this is the context,
-        [3] // this is array over which iterate)
+    }, 
+    {test: 'context is the second arg'}, // this is the context
+    [3] // this is array over which iterate
+    )
     assert(returned instanceof Promise )
  ```
 
@@ -34,6 +36,6 @@ let returned = coFor(function * (item, index) {
 
 ## arrayToIterate 
  
- The array to iterate, can be passed as thid arg or with context with is called coFor
+ The array to iterate, can be passed as third arg or like second arg if third is undefined.
  
 
